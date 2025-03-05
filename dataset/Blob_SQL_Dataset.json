@@ -1,0 +1,17 @@
+{
+	"name": "Blob_SQL_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "stores"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
